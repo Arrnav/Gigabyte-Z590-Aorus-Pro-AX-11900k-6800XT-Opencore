@@ -1,6 +1,12 @@
 # Gigabyte Z590 Aorus Pro AX - 11900k - 6800XT
 Sharing my Opencore based Hackintosh EFI running great on the i91100k Rocketlake.
 
+# IMPORTANT:
+
+- **Don't forget** to download the latest STABLE (Not the latest Alpha) Airportitlwm.kext from https://github.com/OpenIntelWireless/itlwm/releases and place it in the OC/Kexts directory before booting this EFI (The kext name has already been added in config.plist, but the actual file is omitted from my repo due to size restrictions)
+
+- **Don't forget** to generate your own MLB, UUID, Serial ID and ROM values inside config.plist (Using OCAT or something similar) before booting the EFI.
+
 # Hardware:
 
 - CPU: Intel i9-11900k stock clock (Overclocking seems to destabilize macOS even if stable on Windows).
@@ -48,5 +54,5 @@ FYI: I have XMP Profile disabled because I noticed stability issues in macOS. I 
 
 # Credits:
 
-- **SchmockLord**: This repo is based on his work, shadowing his EFI for the Z590i Vision D. His EFI proved the most stable initially for my slightly different board, from where I made changes.
+- **SchmockLord**: This repo is based on his work (https://github.com/SchmockLord/Gigabyte-Z590i-Vision-D-11900k#readme), shadowing his EFI for the Z590i Vision D. His EFI proved the most stable initially for my slightly different board, from where I made changes.
 - **Dortania** for all of their invaluable OpenCore guides.
