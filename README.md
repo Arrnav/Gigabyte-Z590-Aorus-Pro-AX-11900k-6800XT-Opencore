@@ -1,11 +1,19 @@
 # Gigabyte Z590 Aorus Pro AX - 11900k - 6800XT
 Sharing my Opencore based Hackintosh EFI running great on the i91100k Rocketlake.
 
+**Currently running on the now-latest Opencore 0.7.9 with macOS Monterey 12.2.1.**
+
 # IMPORTANT:
 
 - **Don't forget** to download the latest STABLE (Not the latest Alpha) Airportitlwm.kext from https://github.com/OpenIntelWireless/itlwm/releases and place it in the OC/Kexts directory before booting this EFI (The kext name has already been added in config.plist, but the actual file is omitted from my repo due to size restrictions)
 
 - **Don't forget** to generate your own MLB, UUID, Serial ID and ROM values inside config.plist (Using OCAT or something similar) before booting the EFI.
+
+# Screenshots:
+
+![Screen Shot 2022-03-16 at 20 15 04 PM](https://user-images.githubusercontent.com/23283363/158618518-4f5c16ad-e453-4b4e-8ce1-9951eb53c32c.png)
+
+![Screen Shot 2022-03-16 at 8 16 14 PM](https://user-images.githubusercontent.com/23283363/158618559-513b13b5-1b7b-4ec5-9989-c3046a496acc.png)
 
 # Hardware:
 
